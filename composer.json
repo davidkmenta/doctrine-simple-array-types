@@ -1,0 +1,30 @@
+{
+  "name": "davidkmenta/doctrine-simple-array-types",
+  "description": "Simple array types for Doctrine",
+  "keywords": ["integer", "int", "string", "array", "type", "doctrine"],
+  "homepage": "https://github.com/davidkmenta/doctrine-simple-array-types",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Kmenta",
+      "email": "david.kmenta@me.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/davidkmenta/doctrine-simple-array-types/issues"
+  },
+  "require": {
+    "php": ">=7.1",
+    "doctrine/orm": "^2.4"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": { "DavidKmenta\\DoctrineSimpleArrayTypes\\": "src" }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
