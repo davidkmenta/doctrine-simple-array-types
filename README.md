@@ -3,6 +3,14 @@ Doctrine Simple Array Types
 
 A [Doctrine field type](https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/reference/types.html) for simple arrays of integers and strings.
 
+## Description
+
+These types mainly solve two common problems:
+
+* _simple_string_array_ solves the problem with strings containing a comma symbol. Such strings cannot be persisted in the _simple_array_ type provided by the Doctrine. 
+* _simple_integer_array_ extends the _simple_array_ type from the Doctrine. This type solves the problem when [a persisted integer is returned from the database as a string](https://www.doctrine-project.org/projects/doctrine-dbal/en/2.8/reference/types.html#simple-array). 
+
+
 ## Installation
 
 Run the following command:
