@@ -1,7 +1,7 @@
 {
   "name": "davidkmenta/doctrine-simple-array-types",
-  "description": "Simple array types for Doctrine",
-  "keywords": ["integer", "int", "string", "array", "type", "doctrine"],
+  "description": "Extended simple array types for Doctrine",
+  "keywords": ["integer", "int", "string", "float", "array", "type", "doctrine"],
   "homepage": "https://github.com/davidkmenta/doctrine-simple-array-types",
   "type": "library",
   "license": "MIT",
